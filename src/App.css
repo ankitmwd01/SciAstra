@@ -27,6 +27,10 @@
   display: flex;
   justify-content: end;
   margin-left: 10px;
+  
+}
+.ShowMore>button{
+  box-shadow: inset 0 0 10px #7a7676;
 }
 .MentorList{
   margin-top: 20px;
@@ -41,6 +45,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .MentorHeading{
   display: flex;
@@ -48,4 +53,10 @@
   align-items: center;
   height: 12vh;
   text-shadow:2px 2px rgba(99, 99, 99, 0.2);
+}
+@media screen and (max-width:900px){
+  .CollegeBox, .MentorBox{
+    width: 40%;
+  }
+  
 }

@@ -1,7 +1,7 @@
 import { Heading, Box, Button } from "@chakra-ui/react";
 import React, { useState } from "react";
-import MentorData from "../Data/MentorData";
 import AdvisorBox from "./AdvisorBox";
+import AdvisorData from "../Data/AdvisorData";
 
 const Advisor = () => {
   const [count, setCount] = useState(4);
@@ -10,7 +10,7 @@ const Advisor = () => {
     <Box>
       <Heading className="MentorHeading">Mentor And Advisor</Heading>
       <Box className="MentorList">
-        {MentorData?.slice(0, count).map((val, ind) => (
+        {AdvisorData?.slice(0, count).map((val, ind) => (
           <AdvisorBox
             key={ind}
             clg={val.College}
@@ -23,7 +23,7 @@ const Advisor = () => {
         <Button
           size="sm"
           onClick={() => {
-            count <= 4 ? setCount(MentorData?.length) : setCount(8);
+            count <= 4 ? setCount(AdvisorData?.length) : setCount(4);
           }}
         >
           {count > 4 ? "Show Less" : "Show More"}
