@@ -16,6 +16,7 @@ const Advisor = () => {
             clg={val.College}
             Name={val.Name}
             Img={val.img}
+            position={val.position}
           ></AdvisorBox>
         ))}
       </Box>

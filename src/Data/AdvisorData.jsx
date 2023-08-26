@@ -12,41 +12,49 @@ const AdvisorData = [
     Name: "Mitanshi ",
     College: "Cambridge University",
     img: img5,
+    position: "Principal Project Scientists",
   },
   {
     Name: "Aura ",
     College: "Harvard University",
     img: img6,
+    position: "HOD IT",
   },
   {
     Name: "Deepika",
     College: "Cambridge University",
     img: img7,
+    position: "HOD Physics",
   },
   {
     Name: "Rishul Arora",
     College: "Max Planck",
     img: img9,
+    position: "HOD CS",
   },
   {
     Name: "Aman Gupta",
     College: "ETH Zurich",
     img: img10,
+    position: "Principal Project Scientists",
   },
   {
     Name: "Nikhil Mewada",
     College: "Cambridge University",
     img: img11,
+    position: "Senior professor",
   },
   {
     Name: "Arun Mewada",
     College: "IIT Indore",
     img: img12,
+    position: "Senior professor",
   },
   {
     Name: "Nikita ",
     College: "IIT Kanpur",
     img: img8,
+    position: "Senior professor",
   },
 ];
 export default AdvisorData;
