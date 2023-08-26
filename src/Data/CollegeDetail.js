@@ -1,0 +1,2 @@
+const collegeList = ["Cambridge University", "Harvard University", "university of california", "ETH Zurich", "Max Planck", "University of Edinburgh", "John's Hopkins", "university of Illinois", "Humboldt University Berlin","Cambridge University", "Harvard University", "university of california", "ETH Zurich", "Max Planck", "University of Edinburgh", "John's Hopkins", "university of Illinois", "Humboldt University Berlin"];
+export default collegeList;
